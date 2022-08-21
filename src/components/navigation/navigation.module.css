@@ -1,0 +1,23 @@
+.list {
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.item {
+  margin-bottom: 2px;
+  padding: 4px;
+  cursor: pointer;
+
+  font-size: 14px;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+}
+
+.item:hover {
+  background-color: rgb(200, 200, 200);
+  border-radius: 5px;
+}

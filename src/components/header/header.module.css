@@ -1,0 +1,50 @@
+.header {
+  background: gray no-repeat center;
+  background-size: cover;
+  box-shadow: 0px 3px 20px 3px rgb(63, 63, 63);
+}
+
+.container {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 840px;
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 15px;
+  display: flex;
+
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.logo img {
+  width: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navigation {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation img {
+  width: 40px;
+  border-radius: 30px;
+  border: 2px black solid;
+  cursor: pointer;
+}
+
+.arrow {
+  content: url(../../../public/images/svg/arrow.svg);
+  width: 30px;
+  margin-right: 10px;
+
+  cursor: pointer;
+}

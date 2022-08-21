@@ -1,0 +1,41 @@
+.posts {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(200, 200, 200);
+}
+
+.title {
+  margin: 0 0 15px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 70px;
+}
+
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(200, 200, 200);
+}
+
+.profile {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.post img {
+  width: 58px;
+  margin-right: 15px;
+  border-radius: 30px;
+  border: 2px black solid;
+}
+
+.description {
+  margin: 0;
+}
